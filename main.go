@@ -1,4 +1,4 @@
 package main
 import ()
 
-function main() {}
+func main() {}
