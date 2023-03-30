@@ -27,7 +27,7 @@ func main() {
 					quit := false
 
 					for  !quit{
-							 fmt.Print("Ask Genie any question and your answer shall be granted ('quit' if all questions are granted):")
+							 fmt.Print("Ask Genie any question ('quit' if all answers are granted):")
 							 if !scanner.Scan() {
 								 break
 							 }
