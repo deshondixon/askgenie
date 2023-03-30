@@ -1,13 +1,20 @@
 package main
 
 import (
+	"os"
+	"fmt"
+	"bufio"
 	"context"
 	"go/scanner"
 
-	"github.com/PullRequestInc/go-gpt3"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
+	"github.com/PullRequestInc/go-gpt3"
 )
+
+func GetResponse(){
+	
+}
 
 func main() {
 		viper.SetConfigFile(".env")
@@ -34,8 +41,13 @@ func main() {
 							 question := scanner.Text()
 							 switch question {
 								case "quit":
+									quit = true
+								
+								default: 
+									GetResponse(client, ctx, question)
 							 }
 					}
-		}
+		},
 	}
+	rootCmd.Execute()
 }
