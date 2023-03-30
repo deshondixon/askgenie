@@ -34,6 +34,7 @@ type NullWriter int
 func (NullWriter) Write([]byte) (int, error) { return 0, nil }
 
 func main() {
+		log.SetOutput(new(NullWriter))
     viper.SetConfigFile(".env")
     viper.ReadInConfig()
     apiKey: = viper.GetString("API_KEY")
