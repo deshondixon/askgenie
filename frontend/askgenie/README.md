@@ -18,18 +18,6 @@
 
 - Coming Soon
 
-# Press enter
-
-# Now the program will take over, follow the prompt
-
----
-
-![Interface of application](./images/demo2.png)
-
-![Interface of application 2](./images/demo3.png)
-
-![Interface of application 3](./images/demo4.png)
-
 ## Resources For Building this application yourself
 
 - [Akhil Sharma](https://www.youtube.com/@AkhilSharmaTech)
