@@ -18,6 +18,10 @@
 
 - Coming Soon
 
+## Resources For Building this application yourself
+
+- [Coming Soon]()
+
 ## Reach out if you want to know more
 
 - [DeShon Dixon Portfolio](https://deshondixon.vercel.app/)
