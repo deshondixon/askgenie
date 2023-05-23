@@ -8,9 +8,7 @@
 
 ## Overview
 
-- Ask genie any questions and an answer shall be granted.
-
-- Ask genie utilizes gpt-3 API to produce answers for users.
+- Ask genie utilizes gpt-3.5 API to produce answers for users.
 
 ---
 
